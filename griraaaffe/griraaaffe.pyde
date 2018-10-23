@@ -15,10 +15,13 @@ def draw():
     background(20, 251, 255)
     noStroke()
 #giraffe 1
+    #head
     fill(255, 240, 69)
     ellipse(x, height/2 - 185, 100, 50)
+    #neck
     fill(227, 69, 255)
     ellipse(x-50, height/2 -10, 30, 380)
+    #body
     fill(255, 209, 101)
     ellipse(x-100, height/2 + 150, 250, 50)
     fill(255, 107, 107)
@@ -38,7 +41,9 @@ def draw():
     ellipse(x + 12, height/2 - 170, 13, 13)
     fill(255, 17, 13)
     ellipse(x+13, height/2 - 167, 9, 9)
-#giraffe 2
+    fill(255, 240, 69)
+    ellipse(x - 30, height/2 - 213, 27, 42)
+#giraffe 2 x-200, height/2-100
     fill(255, 240, 69)
     ellipse(x - 300, height/2 - 285, 100, 50)
     fill(227, 69, 255)
@@ -62,7 +67,7 @@ def draw():
     ellipse(x -288, height/2 - 270, 13, 13)
     fill(255, 17, 13)
     ellipse(x-287, height/2 - 267, 9, 9)
-#giraffe 3
+#giraffe 3 x-600
     fill(255, 240, 69)
     ellipse(x-600, height/2 - 185, 100, 50)
     fill(227, 69, 255)
@@ -86,7 +91,30 @@ def draw():
     ellipse(x -588, height/2 - 170, 13, 13)
     fill(255, 17, 13)
     ellipse(x-587, height/2 - 167, 9, 9)
-# 
+#giraffe 4 x-300, height/2-100
+    fill(255, 240, 69)
+    ellipse(x - 300, height/2 - 285, 100, 50)
+    fill(227, 69, 255)
+    ellipse(x-350, height/2 -110, 30, 380)
+    fill(255, 209, 101)
+    ellipse(x-400, height/2 +50, 250, 50)
+    fill(255, 107, 107)
+    ellipse(x-350, height/2 +80, 17, 100)
+    fill(107, 255, 107)
+    ellipse(x-390, height/2 +80, 17, 100)
+    fill(107, 107, 255)
+    ellipse(x-430, height/2 +80, 17, 100)
+    fill(255, 181, 107)
+    ellipse(x-470, height/2 +80, 17, 100)
+    fill(255, 255, 255)
+    ellipse(x-280, height/2 - 290, 30, 30)
+    ellipse(x-305, height/2 - 290, 30, 30)
+    fill(1, 3, 3)
+    ellipse(x -275, height/2 - 295, 10, 10)
+    ellipse(x -300, height/2 - 295, 10, 10)
+    ellipse(x -288, height/2 - 270, 13, 13)
+    fill(255, 17, 13)
+    ellipse(x-287, height/2 - 267, 9, 9)
 
     
     
